@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='../../stylesheets/style.css'>
+    <title>My Developer Skills</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="navlink">Home</a> | <a href="/skills" class="navlink">Skills</a>
+    </nav>
+    <section>
+      <h2>Skill #<%= skillNum %></h2>
+      <br>
+      <h3><%= skill.skill %></h3>
+      <h4>Mastered? <%= skill.master ? 'Yes' : 'No' %>
+      <h4>Difficulty - <%= skill.diff %></h4>
+    </section>
+  </body>
+</html>

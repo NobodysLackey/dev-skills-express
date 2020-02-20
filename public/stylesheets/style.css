@@ -1,0 +1,87 @@
+body {
+  font: 14px "Futura", Arial, sans-serif;
+  background: rgb(55,55,55);
+  background: radial-gradient(circle, rgba(55,55,55,1) 0%, rgba(100,100,100,1) 0%, rgba(55,55,55,1) 100%);
+  padding: 0px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 8px;
+  color: rgba(255,255,255,1);
+  font-size: 28px;
+}
+
+h2 {
+  margin: 8px;
+  color: rgba(255,255,255,1);
+  font-size: 20px;
+}
+
+h3 {
+  margin: 3px;
+  color: rgba(253,29,29,1);
+  font-size: 16px;
+}
+
+h4 {
+  line-height: 0px;
+  padding: 8px;
+  margin: 4px;
+  color: rgba(1,1,1,1);
+  font-size: 14px;
+}
+
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgba(253,29,29,1);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(252,176,69,1);
+}
+
+div {
+  width: 350px;
+  text-align: left;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav {
+  background: rgba(252,176,69,1);
+  background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  color: rgba(55,55,55,1);
+  font-weight: bold;
+}
+
+.navlink {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(55,55,55,1);
+  font-size: 15px;
+}
+
+.navlink:hover {
+  color: rgba(252,176,69,1);
+  cursor: pointer;
+}

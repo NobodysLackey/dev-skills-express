@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel='stylesheet' href='../../stylesheets/style.css'>
+      <title>My Developer Skills</title>
+  </head>
+  <body>
+      <nav>
+        <a href="/" class="navlink">Home</a> | <a href="/skills" class="navlink">Skills</a>
+      </nav>
+      <section>
+        <h2>Skills</h2>
+          <div>
+            <ul>
+              <% skills.forEach( (s, idx) => { %>
+                <li>
+                  <a href="/skills/<%=idx%>"><%= s.skill %></a>
+                    - 
+                  <%= s.master ? 'Mastered' : 'Not Mastered' %>
+                    -
+                  <%= s.diff %> 
+                </li>
+              <% }); %>
+            </ul>
+          </div>
+      </section>
+  </body>
+</html>
