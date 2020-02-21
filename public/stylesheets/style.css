@@ -51,7 +51,7 @@ a:hover {
   color: rgba(253,29,29,1);
 }
 
-div {
+#skills-list {
   width: 300px;
   text-align: left;
   display: flex;
@@ -60,24 +60,128 @@ div {
   align-items: center;
 }
 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+}
+.switch-input {
+  display: none;
+}
+.switch-label {
+  display: block;
+  width: 48px;
+  height: 24px;
+  text-indent: -150%;
+  clip: rect(0 0 0 0);
+  color: transparent;
+  user-select: none;
+}
+.switch-label::before,
+.switch-label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.switch-label::before {
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  border-radius: 9999em;
+  -webkit-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
+}
+.switch-label::after {
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+  -webkit-transition: left 0.25s ease;
+  transition: left 0.25s ease;
+}
+.switch-input:checked + .switch-label::before {
+  background: rgb(59,180,58);
+  background: linear-gradient(90deg, rgba(59,180,58,1) 0%, rgba(231,253,29,1) 100%);
+}
+.switch-input:checked + .switch-label::after {
+  left: 24px;
+}
+
+#edit-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 25px;
+  width: 150px;
+  text-align: center;
+  outline: none;
+  border-width: 3px;
+  border: rgba(253,29,29,1);
+  border-style: solid;
+  background-color: rgb(219, 219, 219);
+  font: 14px "Futura", Arial, sans-serif;
+}
+
+input:hover {
+  border: rgba(252,176,69,1);
+  border-width: 3px;
+  border-style: solid;
+}
+
+input:focus {
+  border: rgb(59,180,58);
+  border-width: 3px;
+  border-style: solid;
+}
+
+.delete {
+  font: 14px "Futura", Arial, sans-serif;
+  background: rgba(253,29,29,1);
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 60px;
+  font-weight: bold;
+  font-size: 7px;
+}
+
+.delete:hover {
+  background: rgba(253,29,29,1);
+  color: rgba(255,255,255,1);
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 7px;
+  cursor: pointer;
+}
+
 button {
-  background-color: rgba(252,176,69,1);
+  font: 14px "Futura", Arial, sans-serif;
+  background: rgba(252,176,69,1);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
   color: rgb(55,55,55);
   border: none;
   outline: none;
   height: 25px;
-  width: 50px;
+  width: 60px;
   font-weight: bold;
   font-size: 12px;
 }
 
 button:hover {
-  background-color: rgba(253,29,29,1);
+  background: rgba(252,176,69,1);
+  background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
   color: rgba(255,255,255,1);
   border: none;
   outline: none;
-  height: 25px;
-  width: 50px;
   font-weight: bold;
   font-size: 12px;
   cursor: pointer;
@@ -95,17 +199,13 @@ button:hover {
   height: 13px;
   cursor: pointer;
   border-radius: 50%;
-  font-size: 8px;
-  line-height: 13px;
-  font-weight: bold;
-  text-align: center;
   vertical-align: middle;
   outline: none;
 }
 
 .delete-form button:hover {
-  background-color: rgba(253,29,29,1);
-  color: rgba(255,255,255,1);
+  background-color: rgba(252,176,69,1);
+  color: rgba(55,55,55,1);
 }
 
 li {
