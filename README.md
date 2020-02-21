@@ -7,7 +7,7 @@
 
 ### ***Description***
 
-##### The goal of the lab is to put in a rep doing everything that you did during the *Express - Routers & Controllers* and *Express - Middleware* lessons.
+##### The goal of the lab is to put in repitition doing everything that we did during the *Express - Routers & Controllers* and *Express - Middleware* lessons.
 ***
 
 ### ***Technologies Used***
@@ -16,11 +16,12 @@
 * ##### HTML
 * ##### CSS
 * ##### Node.js
+* ##### Express
 ***
 
 ### ***Getting Started***
 
-##### Use this website to keep track of your learned developer skills. As new skills are learned, they can be added to the list.  Skills can be added, removed, and edited.  Use the nav bar on top to move easily throughout the views.
+##### Use this website to keep track of your learned developer skills. Skills can be added to the list, removed, and edited.  Use the nav bar on top to move easily throughout the views.
 ##### The project can be viewed [here](https://mlackey9601.github.io/dev-skills-express/).
 ***
 
