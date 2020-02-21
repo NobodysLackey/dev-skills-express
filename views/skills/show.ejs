@@ -14,8 +14,9 @@
       <h2>Skill #<%= skillNum %></h2>
       <br>
       <h3><%= skill.skill %></h3>
-      <h4>Mastered? <%= skill.master ? 'Yes' : 'No' %>
-      <h4>Difficulty - <%= skill.diff %></h4>
+      <h4>Mastered? <%= skill.master ? 'Yes' : 'No' %></h4>
+      <br>
+      <a href="/skills/<%= skillNum - 1 %>/edit">Edit</a>
     </section>
   </body>
 </html>

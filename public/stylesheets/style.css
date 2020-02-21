@@ -1,9 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 body {
   font: 14px "Futura", Arial, sans-serif;
   background: rgb(55,55,55);
   background: radial-gradient(circle, rgba(55,55,55,1) 0%, rgba(100,100,100,1) 0%, rgba(55,55,55,1) 100%);
-  padding: 0px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,17 +43,73 @@ a {
   margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
-  color: rgba(253,29,29,1);
+  color: rgba(252,176,69,1);
   font-weight: bold;
 }
 
 a:hover {
-  color: rgba(252,176,69,1);
+  color: rgba(253,29,29,1);
 }
 
 div {
-  width: 350px;
+  width: 300px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: rgba(252,176,69,1);
+  color: rgb(55,55,55);
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 50px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: rgba(253,29,29,1);
+  color: rgba(255,255,255,1);
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-form button {
+  background-color: rgba(253,29,29,1);
+  color: rgba(253,29,29,1);
+  border: none;
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 8px;
+  line-height: 13px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+}
+
+.delete-form button:hover {
+  background-color: rgba(253,29,29,1);
+  color: rgba(255,255,255,1);
+}
+
+li {
+  list-style: none;
 }
 
 section {

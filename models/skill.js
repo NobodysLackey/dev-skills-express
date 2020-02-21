@@ -1,14 +1,17 @@
 const skills = [
-    {skill: 'HTML', master: true, diff: 'Beginner'},
-    {skill: 'CSS', master: true, diff: 'Beginner'},
-    {skill: 'JavaScript', master: true, diff: 'Intermediate'},
-    {skill: 'NodeJS', master: false, diff: 'Intermediate'},
-    {skill: 'Python', master: false, diff: 'Expert'}
+    {skill: 'HTML', master: true},
+    {skill: 'CSS', master: true},
+    {skill: 'JavaScript', master: true},
+    {skill: 'Node.js', master: false},
+    {skill: 'Python', master: false}
 ];
 
 module.exports = {
     getAll,
-    getOne    
+    getOne,
+    create,
+    deleteOne,
+    update
 };
 
 function getAll() {
@@ -17,4 +20,16 @@ function getAll() {
 
 function getOne(id) {
     return skills[id];
+};
+
+function create(skill) {
+    skills.push(skill);
+};
+
+function deleteOne(id) {
+    skills.splice(id, 1);
+};
+
+function update(skill, id) {
+    skills.splice(id, 1, skill);
 };
