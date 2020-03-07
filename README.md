@@ -3,6 +3,7 @@
 ### Date: 2/20/2020
 
 #### By: Michael Lackey
+#### [GitHub](https://github.com/mlackey9601) | [LinkedIn](https://www.linkedin.com/in/michaelglackey/)
 ***
 
 ### ***Description***
@@ -41,11 +42,11 @@
 ##### Michael is a new software developer and wants to keep track of his newly learned skills.  He wants a "one-stop-shop" where he can view and edit them all.
 #### User Story #2
 ##### Lincoln kept a list of all his skills on the My Developer Skills website, but needs to make some updates to his list.
-#### Minimum Viable Product
-* ##### As a user, I should be able to easily see a list of my skills.
-* ##### As a user, I should be able to add/remove skills from the list.
-* ##### As a user, I should be able to edit my skills once I've placed them on the list.
-* ##### As a user, I should be able to mark and unmark skills as "mastered".
+#### As a user...
+* ##### I should be able to easily see a list of my skills.
+* ##### I should be able to add/remove skills from the list.
+* ##### I should be able to edit my skills once I've placed them on the list.
+* ##### I should be able to mark and unmark skills as "mastered".
 ***
 
 ### ***Future Updates***
