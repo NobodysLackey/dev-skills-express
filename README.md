@@ -1,52 +1,40 @@
-# **My Dev Skills Express Lab**
+# **Dev Skills Tracker**
 
 ### Date: 2/20/2020
 
 #### By: Michael Lackey
-#### [GitHub](https://github.com/mlackey9601) | [LinkedIn](https://www.linkedin.com/in/michaelglackey/)
+#### [Website](https://michaellackey.com/) | [GitHub](https://github.com/mlackey9601) | [LinkedIn](https://www.linkedin.com/in/michaelglackey/) | [GA Profile](https://profiles.generalassemb.ly/michaellackey)
 ***
 
 ### ***Description***
 
-##### The goal of the lab is to put in repitition doing everything that we did during the *Express - Routers & Controllers* and *Express - Middleware* lessons.
+##### A simple list app for tracking developer skills.
 ***
 
 ### ***Technologies Used***
 
-* ##### JavaScript
 * ##### HTML
 * ##### CSS
-* ##### Node.js
-* ##### Express
+* ##### JavaScript
+* ##### NodeJS/ExpressJS
 ***
 
 ### ***Getting Started***
 
 ##### Use this website to keep track of your learned developer skills. Skills can be added to the list, removed, and edited.  Use the nav bar on top to move easily throughout the views.
-##### The project can be viewed [here](https://mlackey9601.github.io/dev-skills-express/).
+##### The project was deployed on Heroku and can be viewed [here](https://express-dev-skills.herokuapp.com/).
 ***
 
 ### ***Screenshots***
 
 ###### Skills List
 ![Skills List](public/images/screenshots/list.png)
+
 ###### View a Skill
 ![View a Skill](public/images/screenshots/view.png)
+
 ###### Edit a Skill
 ![Edit a Skill](public/images/screenshots/edit.png)
-***
-
-### ***User Experience***
-
-#### User Story #1
-##### Michael is a new software developer and wants to keep track of his newly learned skills.  He wants a "one-stop-shop" where he can view and edit them all.
-#### User Story #2
-##### Lincoln kept a list of all his skills on the My Developer Skills website, but needs to make some updates to his list.
-#### As a user...
-* ##### I should be able to easily see a list of my skills.
-* ##### I should be able to add/remove skills from the list.
-* ##### I should be able to edit my skills once I've placed them on the list.
-* ##### I should be able to mark and unmark skills as "mastered".
 ***
 
 ### ***Future Updates***
@@ -56,9 +44,4 @@
 - [ ] Create a more organized and clean looking skills list
 - [ ] Add sounds that play when list items are removed and/or marked as mastered
 - [ ] Add JavaScript animations for the list items
-***
-
-### ***Credits***
-  
-##### None
 ***
