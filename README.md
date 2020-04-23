@@ -17,6 +17,7 @@
 * ##### CSS
 * ##### JavaScript
 * ##### NodeJS/ExpressJS
+* ##### Heroku
 ***
 
 ### ***Getting Started***
