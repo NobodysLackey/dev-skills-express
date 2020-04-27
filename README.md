@@ -13,11 +13,7 @@
 
 ### ***Technologies Used***
 
-* ##### HTML
-* ##### CSS
-* ##### JavaScript
-* ##### NodeJS/ExpressJS
-* ##### Heroku
+![Technologies Used](public/images/tech-banner.png)
 ***
 
 ### ***Getting Started***
