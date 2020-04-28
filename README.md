@@ -1,4 +1,4 @@
-# **Dev Skills Tracker**
+![Dev Skills Tracker](public/images/banner.png)
 
 ### Date: 2/20/2020
 
