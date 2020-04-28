@@ -27,9 +27,6 @@
 ###### Skills List
 ![Skills List](public/images/screenshots/list.png)
 
-###### View a Skill
-![View a Skill](public/images/screenshots/view.png)
-
 ###### Edit a Skill
 ![Edit a Skill](public/images/screenshots/edit.png)
 ***
